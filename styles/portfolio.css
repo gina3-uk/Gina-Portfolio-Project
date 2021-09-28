@@ -1,13 +1,30 @@
 /* Font family: Poppins for body and Playfair Display for headings. font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif;  */
 
-.hero {
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 96px;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+  padding-top: 50px;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.top-section {
   background: #f8f9fa;
+}
+
+.hero {
+  padding: 100px 0px;
 }
 
 .profile {
   border-radius: 100%;
   border: 5px solid white;
-  max-height: 200px;
-  margin: 15px;
+  margin: 15px 0px;
 }
