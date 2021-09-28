@@ -1,2 +1,13 @@
 /* Font family: Poppins for body and Playfair Display for headings. font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif;  */
+
+.hero {
+  background: #f8f9fa;
+}
+
+.profile {
+  border-radius: 100%;
+  border: 5px solid white;
+  max-height: 200px;
+  margin: 15px;
+}
