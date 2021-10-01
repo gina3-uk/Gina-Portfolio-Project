@@ -1,6 +1,11 @@
 /* Font family: Poppins for body and Playfair Display for headings. font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif;  */
 
+:root {
+  --primary-color: #f8f9fa;
+  --secondary-color: #71888e;
+}
+
 h1 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
@@ -18,7 +23,7 @@ h2 {
 }
 
 .top-section {
-  background: #f8f9fa;
+  background: var(--primary-color);
   font-family: "Poppins", sans-serif;
 }
 
@@ -30,4 +35,59 @@ h2 {
   border-radius: 100%;
   border: 5px solid white;
   margin: 15px 0px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.app-link {
+  border-radius: 4px;
+  border: 1px solid var(--secondary-color);
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  font-size: 18px;
+  line-height: 26px;
+  padding: 15px 30px;
+  transition: all 200ms ease-in-out;
+}
+
+.app-link:hover {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  border: 1px solid var(--secondary-color);
+}
+
+footer {
+  color: grey;
+  text-align: center;
+  opacity: 0.7;
+}
+
+@media (max-width: 576px) {
+  .profile {
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 80px;
+  }
+
+  .cupcake {
+    display: none;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  .app-link {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+  }
 }
