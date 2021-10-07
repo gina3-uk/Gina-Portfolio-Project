@@ -89,9 +89,20 @@ h4 {
 }
 
 footer {
-  color: grey;
   text-align: center;
-  opacity: 0.7;
+}
+
+footer .social-links {
+  color: var(--secondary-color);
+  padding: 15px 20px;
+  font-size: 30px;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-links:hover {
+  color: var(--primary-color);
+  background: var(--secondary-color);
 }
 
 .alt-h1 {
