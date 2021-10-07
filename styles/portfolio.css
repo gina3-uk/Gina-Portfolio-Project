@@ -79,6 +79,15 @@ h4 {
   padding: 20px 0 5px 0;
 }
 
+.contact-links {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.contact-links:hover {
+  color: black;
+}
+
 footer {
   color: grey;
   text-align: center;
@@ -88,6 +97,15 @@ footer {
 .alt-h1 {
   font-size: 70px;
   padding-top: 50px;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+.experience-image {
+  max-height: 75%;
+  padding-top: 20px;
 }
 
 @media (max-width: 576px) {
@@ -130,5 +148,9 @@ footer {
     font-size: 50px;
     -webkit-text-stroke: 1px white;
     padding: 15px 0 5px 0;
+  }
+
+  .alt-h1 {
+    font-size: 50px;
   }
 }
