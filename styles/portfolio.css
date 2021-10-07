@@ -103,7 +103,7 @@ ul {
   list-style-type: circle;
 }
 
-.experience-image {
+.skills-image {
   max-height: 75%;
   padding-top: 20px;
 }
@@ -135,6 +135,12 @@ ul {
     font-size: 24px;
   }
 
+  ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+  }
+
   .app-link {
     text-align: center;
     display: block;
@@ -152,5 +158,10 @@ ul {
 
   .alt-h1 {
     font-size: 50px;
+  }
+
+  .skills-image {
+    display: block;
+    margin: 0 auto;
   }
 }
