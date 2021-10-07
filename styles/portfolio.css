@@ -110,7 +110,7 @@ footer .social-links:hover {
   padding-top: 50px;
 }
 
-ul {
+.exp-list {
   list-style-type: circle;
 }
 
@@ -146,7 +146,7 @@ ul {
     font-size: 24px;
   }
 
-  ul {
+  .exp-list {
     list-style-type: none;
     text-align: center;
     padding: 0;
